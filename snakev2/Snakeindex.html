@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" cotent="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title name="author" cotent="Edward Shih">SnakeGame</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p id="name">MiniGameSnake</p>
+    <p id="myScore"></p>
+    <p id="myScore2"></p>
+    <button type="button" id="Start" onClick="window.location.reload();">
+      Start
+    </button>
+    <canvas
+      id="mycanvas"
+      width="320"
+      height="320"
+      style="background-color: black"
+    ></canvas>
+    <div id="buttoncontainer">
+      <button id="upButton">↑</button>
+      <br />
+      <br />
+      <button id="leftButton">←</button>
+      <button id="downButton">↓</button>
+      <button id="rightButton">→</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#name {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute; /* 设置为绝对定位 */
+  top: 5%;
+  left: 40%; /* 让元素置于最左边 */
+}
+#mycanvas {
+  border: 5px solid lightgreen;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#myScore {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute; /* 设置为绝对定位 */
+  top: 2%;
+  left: 70%; /* 让元素置于最左边 */
+}
+
+#myScore2 {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute; /* 设置为绝对定位 */
+  left: 70%; /* 让元素置于最左边 */
+  top: 8%;
+}
+
+#Start {
+  background-color: yellow;
+  font-size: 3rem;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: inline-block;
+  border-radius: 10px; /* 圓角邊框 */
+  cursor: pointer;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+}
+
+/* .Start:active {
+  background-color: #45a049;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+#buttoncontainer {
+  position: absolute;
+  left: 25%;
+  top: 65%;
+}
+
+#upButton,
+#downButton,
+#leftButton,
+#rightButton {
+  width: 100px; /* 按鈕寬度 */
+  height: 100px; /* 按鈕高度 */
+  border: none; /* 移除邊框 */
+  border-radius: 50%; /* 圓角邊框 */
+  background-color: #3498db; /* 背景顏色 */
+  color: white; /* 文字顏色 */
+  font-size: 70px; /* 文字大小 */
+  font-weight: bolder;
+  margin: 12px; /* 外邊距 */
+  cursor: pointer; /* 鼠標指針 */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+}
+
+#upButton {
+  position: relative;
+  top: 10%;
+  left: 33%;
+}
+/* #downButton {
+  position: relative;
+  top: 10%;
+  left: 25%;
+}
+
+#leftButton {
+  position: relative;
+  top: 10%;
+  left: 25%;
+}
+
+#rightButton {
+  position: relative;
+  top: 10%;
+  left: 25%;
+} */
+*/ .button:active {
+  background-color: #45a049;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
